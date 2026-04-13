@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  // ⚠️ 重要：仓库名就是 base 路径，部署后访问 https://username.github.io/tech-blog/
+  // ⚠️ 重要：仓库名就是 base 路径，部署后访问 https://78590-web.github.io/tech-blog/
   base: '/tech-blog/',
 
   title: 'TechStack Docs',
