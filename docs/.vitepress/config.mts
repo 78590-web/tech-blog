@@ -1,7 +1,8 @@
 import { defineConfig } from 'vitepress'
+import { withMermaid } from 'vitepress-plugin-mermaid'
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default withMermaid({
   // ⚠️ 重要：仓库名就是 base 路径，部署后访问 https://78590-web.github.io/tech-blog/
   base: '/tech-blog/',
 
@@ -76,5 +77,23 @@ export default defineConfig({
     search: {
       provider: 'local'
     },
-  }
+  },
+
+  // Mermaid 配置
+  mermaid: {
+    theme: 'dark',
+    themeVariables: {
+      primaryColor: '#3b82f6',
+      primaryTextColor: '#fff',
+      primaryBorderColor: '#60a5fa',
+      lineColor: '#9ca3af',
+      secondaryColor: '#1f2937',
+      tertiaryColor: '#374151',
+    }
+  },
+
+  // Mermaid 插件配置
+  mermaidPlugin: {
+    class: 'mermaid my-class', // 可选：添加自定义 CSS 类
+  },
 })
