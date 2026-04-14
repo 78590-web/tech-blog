@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "TechStack Docs"
   text: "技术栈知识库"
-  tagline: 系统性整理前端、后端、运维等方向技术知识，实用为先
+  tagline: 从基础到进阶，从前端到Linux 技术栈
   actions:
     - theme: brand
       text: 开始阅读

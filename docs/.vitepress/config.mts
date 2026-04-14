@@ -5,7 +5,7 @@ export default defineConfig({
   // ⚠️ 重要：仓库名就是 base 路径，部署后访问 https://78590-web.github.io/tech-blog/
   base: '/tech-blog/',
 
-  title: 'TechStack Docs',
+  title: '78590_TechStack',
   description: '技术栈知识文档站',
 
   // 默认深色主题
@@ -62,6 +62,7 @@ export default defineConfig({
           { text: '文件系统管理', link: '/linux/file-system' },
           { text: 'Shell 脚本', link: '/linux/shell-script' },
           { text: '用户与权限', link: '/linux/permissions' },
+          { text: 'Shell入门', link: '/linux/shell-01-intro' }
         ]
       },
     ],
