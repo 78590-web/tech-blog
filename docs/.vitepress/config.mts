@@ -105,15 +105,4 @@ export default withMermaid({
   mermaidPlugin: {
     class: 'mermaid my-class',
   },
-
-  // 添加 head 配置，确保 Mermaid 正确加载
-  head: [
-    ['script', {}, `
-      window.addEventListener('load', function() {
-        if (window.mermaid) {
-          window.mermaid.initialize({ startOnLoad: true });
-        }
-      });
-    `]
-  ],
 })
