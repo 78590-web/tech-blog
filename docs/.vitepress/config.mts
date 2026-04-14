@@ -20,6 +20,7 @@ export default withMermaid({
       { text: 'CSS', link: '/css/basics' },
       { text: 'JavaScript', link: '/javascript/basics' },
       { text: 'Linux', link: '/linux/basics' },
+      { text: '使用指南', link: '/guide/mermaid-demo' },
     ],
 
     // 左侧可折叠侧边栏
@@ -64,6 +65,14 @@ export default withMermaid({
           { text: 'Shell 脚本', link: '/linux/shell-script' },
           { text: '用户与权限', link: '/linux/permissions' },
           { text: 'Shell入门', link: '/linux/shell-01-intro' }
+        ]
+      },
+      {
+        text: '使用指南',
+        collapsible: true,
+        collapsed: true,
+        items: [
+          { text: 'Mermaid 图表', link: '/guide/mermaid-demo' },
         ]
       },
     ],
