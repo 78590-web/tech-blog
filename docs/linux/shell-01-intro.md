@@ -4,7 +4,7 @@
 
 本文的基本结构如下:
 ```mermaid
-Flowchart LR
+flowchart TD
 A_1[Shell] --> B_1[Linux命令的基本格式]
 A_1[Shell] --> B_2[数据流控制]
 B_2[数据流控制] --> C_1[输入重定向(两种)]
