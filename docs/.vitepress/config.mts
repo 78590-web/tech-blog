@@ -103,6 +103,17 @@ export default withMermaid({
 
   // Mermaid 插件配置
   mermaidPlugin: {
-    class: 'mermaid my-class', // 可选：添加自定义 CSS 类
+    class: 'mermaid my-class',
   },
+
+  // 添加 head 配置，确保 Mermaid 正确加载
+  head: [
+    ['script', {}, `
+      window.addEventListener('load', function() {
+        if (window.mermaid) {
+          window.mermaid.initialize({ startOnLoad: true });
+        }
+      });
+    `]
+  ],
 })
