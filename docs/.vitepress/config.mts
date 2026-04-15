@@ -91,6 +91,7 @@ export default withMermaid({
   // Mermaid 配置
   mermaid: {
     theme: 'dark',
+    lazyRendering: true,
     themeVariables: {
       primaryColor: '#3b82f6',
       primaryTextColor: '#fff',
