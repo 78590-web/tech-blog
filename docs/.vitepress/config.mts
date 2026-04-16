@@ -64,7 +64,8 @@ export default withMermaid({
           { text: '文件系统管理', link: '/linux/file-system' },
           { text: 'Shell 脚本', link: '/linux/shell-script' },
           { text: '用户与权限', link: '/linux/permissions' },
-          { text: 'Shell入门', link: '/linux/shell-01-intro' }
+          { text: 'Shell入门', link: '/linux/shell-01-intro' },
+          { text: 'Shell结构', link: '/linux/shell-02-struct' },
         ]
       },
       {
