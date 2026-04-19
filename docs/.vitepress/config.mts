@@ -80,7 +80,14 @@ export default withMermaid({
 
     // 社交链接（可自定义）
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/' }
+      {
+        icon: {
+          svg: '<img src="/tech-blog/avatar.jpg" style="width:24px;height:24px;border-radius:50%;object-fit:cover;"/>'
+        },
+        link: 'https://78590-web.github.io/tech-blog/',
+        ariaLabel: '首页'
+      },
+      { icon: 'github', link: 'https://github.com/78590-web' }
     ],
 
     // 搜索
